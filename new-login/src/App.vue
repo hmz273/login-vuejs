@@ -11,7 +11,7 @@
 
     </ul>
      <router-link to="/"> <button class="btn btn-outline-success my-2 my-sm-0 mr-1" type="submit">signup</button></router-link>
- <router-link to="/login"> <button class="btn btn-outline-success my-2 my-sm-0" type="submit">signin</button></router-link>
+ <router-link to="/login"> <button class="btn btn-outline-success my-2 my-sm-0" type="submit">login</button></router-link>
   </div>
 </nav>
     <router-view />

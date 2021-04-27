@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Signup from "../views/Signup.vue";
 import Login from "../views/login.vue";
 import Forgot from "../views/forgot.vue";
+import home from "../views/home.vue";
 
 Vue.use(VueRouter);
 
@@ -22,7 +23,11 @@ const routes = [
     name: "forgot",
     component: Forgot,
   },
-  
+  {
+    path: "/home",
+    name: "home",
+    component: home,
+  },
 ];
 
 const router = new VueRouter({
